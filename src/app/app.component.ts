@@ -23,7 +23,7 @@ import { UserState } from './states/user.state';
 })
 export class AppComponent {
    title = 'ang-dep-inj-rest-service';
-   http=inject(HttpClient);
+  
    UserService=inject(UserService);
    UserState=inject(UserState);
    users:User[]=[];
